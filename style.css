@@ -1,0 +1,181 @@
+.wrapper{
+    width: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.wrapper2{
+    width: 100%;
+    background: #415165 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 48px;
+}
+
+.color-white{
+    color: #FFFFFF;
+}
+.color-black{
+    color: black;
+}
+.color-red{
+    color: #A00404;
+}
+.container{
+    width: 1200px;
+    position: relative;
+    margin:0 auto
+}
+.wrapper2>.container{
+    width: 996px;
+}
+
+h1{
+    top: 37px;
+    left: 360px;
+    width: 264px;
+    height: 212px;
+    text-align: left;
+    font: normal normal normal Roboto;
+    font-size: 80px;
+    line-height: 106px;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-top: 37px;
+    margin-bottom: 3px;
+}
+h2{
+    font: normal normal normal Noto Sans;
+    font-size: 32px;
+    line-height: 43px;
+    letter-spacing: 0px;
+    margin-bottom: 8px;
+}
+.eng{
+    font: normal normal medium Roboto;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+p{
+    text-align: left;
+    font: normal normal normal Noto Sans;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+li{
+    text-align: center;
+    font: normal normal 300 Roboto;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-bottom: 16px;
+}
+
+.text-center{
+    text-align: center;
+}
+.photo>img{
+    width: 324px;
+    height: 324px;
+    margin-top: 48px;
+}
+
+.profile {
+    margin-top: 48px;
+    margin-bottom: 8px;
+}
+.profile >hr{
+    margin-bottom: 8px;
+}
+.profile>p{
+    padding-top: 8px;
+    padding-bottom: 16px;
+}
+
+.education {
+    margin-top: 48px;
+    margin-bottom: 8px;
+}
+.education >hr{
+    margin-bottom: 8px;
+}
+.education>p{
+    padding-top: 8px;
+    padding-bottom: 16px;
+}
+
+.skills{
+    padding-top: 24px;
+    padding-bottom: 36px;
+    margin-top: 56px;
+    
+}
+.skills>hr{
+    margin-bottom: 37px;
+}
+.skill{
+    width: 250px;
+    margin: 0 auto;
+}
+.skills>.skill>ol{
+    padding-left: 28px;
+    border-left: 1px solid #ffffff;
+}
+.skills>.skill>ol>li{
+    text-align: left;
+}
+.work{
+    padding-top: 72px;
+    padding-bottom: 24px;
+}
+.work>hr{
+    margin-bottom: 8px;
+}
+.work-list{
+    border-left: 1px solid #96A9C4;
+    padding-left: 24px;
+    position: relative;
+    left: 24px;
+}
+.work>.work-list>p{
+    padding-top: 8px;
+    margin-bottom: 16px;  
+}
+.logo>img{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 8px;
+}
+.message{
+    width: 642px;
+    text-align: left;
+    font: normal normal normal Noto Sans;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    opacity: 1;
+    display:inline-block
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+.pb--16{
+    padding-top: -16px;
+}
+.contact{
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
+.cotact>hr{
+    margin-bottom: 32px;
+}
+.social{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    margin-right: 24px;
+}
