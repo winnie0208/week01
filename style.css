@@ -25,7 +25,7 @@
 }
 h1{
     text-align: left;
-    font-family: normal normal normal Roboto;
+    font-family:"Roboto",sans-serif;
     font-size: 80px;
     line-height: 106px;
     letter-spacing: 0px;
@@ -33,7 +33,7 @@ h1{
 }
 h2{
     text-align: left;
-    font-family: normal normal normal Noto Sans;
+    font-family: "Noto Sans",sans-serif;
     font-size: 32px;
     line-height: 43px;
     letter-spacing: 0px;
@@ -42,14 +42,14 @@ h2{
 }
 h3{
     text-align: left;
-    font-family: normal normal medium Roboto;
+    font-family:"Roboto",sans-serif;
     font-size: 24px;
     line-height: 43px;
     letter-spacing: 0px;
     opacity: 1;
 }
 li{
-    font-family: normal normal normal Noto Sans;
+    font-family:"Noto Sans",sans-serif;
     font-size: 24px;
     line-height: 36px;
     letter-spacing: 0px;
@@ -57,12 +57,12 @@ li{
     padding-bottom: 24px;
 }
 .engList{
-    font-family:  normal normal Roboto;
+    font-family:"Roboto",sans-serif;
     padding-bottom: 16px;
 }
 p{
     text-align: left;
-    font-family: normal normal normal Noto Sans;
+    font-family: "Noto Sans",sans-serif;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0px;
@@ -120,15 +120,14 @@ p{
 
 /* Elements */
 h1{
-    width: 264px;
-    height: 212px;
     margin-top: 37px;
-    margin-bottom: 3px;
+    padding-bottom: 3px;
+
 }
 .photo{
     margin: 48px 0;
 }
-.photo>img{
+.photo img{
     width: 324px;
     height: 324px;
 }
@@ -144,10 +143,10 @@ h1{
     width: 230px;
     margin: 0 auto;
 }
-.listLine>li{
+.listLine li{
     padding-left: 24px;
 }
-.logo>img{
+.logo img{
     width: 90px;
     height: 90px;
     margin: 8px 0;
@@ -157,4 +156,10 @@ p{
 }
 .icon{
     display: inline;
+}
+.underline{
+    border-bottom: 1px solid #000;
+}
+.underline-white{
+    border-bottom: 1px solid white;
 }
