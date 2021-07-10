@@ -138,10 +138,11 @@ h1{
 .listLine{
     border-left: 1px solid #96A9C4;
 }
-/* 暫時解決skill-list置中的問題 */
+/* 已解決skill-list文字齊左和區塊置中的問題 
+在.skill-box外面在包一層div設置文字置中，在.skill-box設置display:inline-block及文字靠左*/
 .skills-box{
-    width: 230px;
-    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
 }
 .listLine li{
     padding-left: 24px;
